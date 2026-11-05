@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="navbar-header">
+        <nav class="navbar">
+            <a class="brand" href="#Home" aria-label="Web Portfolio Home">
+                <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+                <span>Web Portfolio</span>
+            </a>
+            <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navlink" id="menu">
+                <a class="navbutton" href="#Home">Home</a>
+                <div class="dropdown">
+                    <a class="navbutton" href="#About">About</a>
+                    <div class="dropdown-content">
+                        <a href="#personal-details">Personal Details</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#educational-attainment">Educational Attainment</a>
+                        <a href="#awards">Academic or Non-Academic Awards</a>
+                        <a href="#hobbies">Hobbies</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="navbutton" href="#Others">Others</a>
+                    <div class="dropdown-content">
+                        <a href="#projects">Projects Accomplished</a>
+                        <a href="#gallery">Gallery</a>
+                    </div>
+                </div>
+                <button class="navbutton theme-toggle" type="button" aria-pressed="false">
+                <span class="theme-toggle-label">Dark mode</span>
+            </button>
+                <a class="navbutton contact-link" href="#Contact">Contact</a>
+            </div>
+            
+        </nav>
+    </header>
+
+    <section id="Home" class="section">
+        <h3>Welcome To My Portfolio</h3>
+        <h1>RHEA PADILLO REVILLOZA</h1>
+        <h2>BSIT Student | Aspiring IT Professional</h2>
+        <p>I am a Bachelor of Science in Information Technology (BSIT) student currently studying at the College of Science, Technology and Communication Inc. I am interested in Web Development and Database Management. Although I do not have a specific dream job yet, I am eager to learn new technologies and explore different career opportunities in the field of Information Technology.</p>
+        <div class="pic" id="pic">
+            <img src="5a6799dd-31e2-432d-a3e3-4639e2b1fdb3.jpg" alt="Rhea Padillo Revilloza">
+        </div>
+    </section>
+
+    <section id="About" class="section">
+        <h2>Information About Me</h2>
+        <div class="about-intro">
+            <div class="profile-image">
+                <img src="PERSONAL DETAILS.jpg" alt="Rhea Padillo Revilloza">
+            </div>
+
+            <div class="card">
+                <h3 id="personal-details" class="personal-details">Personal Details</h3>
+                <p><b>Name:</b> Rhea Padillo Revilloza</p>
+                <p><b>Age:</b> 19 years old</p>
+                <p><b>Birthday:</b> April 30, 2007</p>
+                <p><b>Address:</b> Barangay Buenavista San Narciso, Quezon </p>
+                <p><b>Gender:</b> Female</p>
+                <p><b>Height:</b> 154 cm</p>
+                <p><b>Course:</b> Bachelor of Science in Information Technology</p>
+                <p><b>School:</b> College of Science, Technology and Communication Inc (CSTC)</p>
+            </div>
+
+            <div class="card">
+            <h3 id="skills">Skills</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Database Management</li>
+                    <li>Problem Solving</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card education-card">
+            <h2 id="educational-attainment">Educational Attainment</h2>
+            <div class="educ-attain-card">
+                <div class="school-pic">
+                    <img src="eb3dabec-0bef-4b7e-8e01-94f5fd4367f5.jpg" alt="Nursery School">
+                </div>
+
+                <div class="school-info">
+                    <h3><b>Nursery:</b> <br>Barangay Buenavista Daycare Center</h3>
+                    <p>Barangay Buenavista San Narciso, Quezon</p>
+                    <p>Graduated: 2011 -2012</p>
+                </div>
+            </div>
+
+            <div class="educ-attain-card">
+                <div class="school-pic">
+                    <img src="ce9286c0-b87d-4ac2-9552-39a188d27436.jpg" alt="Elementary School">
+                </div>
+
+                <div class="school-info">
+                    <h3><b>Elementary:</b> <br>San Narciso Central Elementary School</h3>
+                    <p>Barangay Pagdadamayan San Narciso, Quezon</p>
+                    <p>Graduated: 2012 - 2019</p>
+                </div>
+            </div>
+
+            <div class="educ-attain-card">
+                <div class="school-pic">
+                    <img src="1989dcc3-b236-4c94-bcab-5d5b6489e105.jpg" alt="Junior High">
+                </div>
+
+                <div class="school-info">
+                    <h3><b>Junior High:</b> <br>St. Joseph's High School</h3>
+                    <p>Barangay Maligaya San Narciso, Quezon</p>
+                    <p>Graduated: 2019 - 2023</p>
+                </div>
+            </div>
+
+            <div class="educ-attain-card">
+                <div class="school-pic">
+                    <img src="26bb439e-55e6-48f0-9b82-5051ffa03d2d.jpg" alt="Senior High">
+                </div>
+
+                <div class="school-info">
+                    <h3><b>Senior High:</b> <br>St. Joseph's High School Inc.</h3>
+                    <p>Barangay Maligaya San Narciso, Quezon</p>
+                    <p>General Academic Strand (GAS)</p>
+                    <p>Graduated: 2023 - 2025</p>
+                </div>
+            </div>
+
+            <div class="educ-attain-card">
+                <div class="school-pic">
+                    <img src="b4a68098-5608-4ac9-8aea-e0c547a1a383.jpg" alt="College">
+                </div>
+
+                <div class="school-info">
+                    <h3><b>College:</b> <br>College of Science, Technology and Communication Inc.</h3>
+                    <p>Sariaya, Quezon</p>
+                    <p>Currently in 2nd Year</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card awards-card">
+            <h3 id="awards">Academic & Non-Academic Awards</h3>
+            <ul>
+                <li>Top 2 Nursery</li>
+                <li>Top 1 Kindergarten</li>
+                <li>With Honor (Grades 10-12)</li>
+                <li>Club Representative Award</li>
+                <li>3rd Placer in Singing Contest</li>
+            </ul>
+        </div>
+
+        <div class="card hobbies-card">
+            <h3 id="hobbies">Hobbies</h3>
+            <ul>
+                <li>Reading</li>
+                <li>Singing</li>
+                <li>Dancing</li>
+                <li>Playing Online Games</li>
+                <li>Watching Series</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="Others" class="section">
+        <h2>Other Information</h2>
+        <h3 id="projects">Projects Accomplished</h3>
+        <div class="projects-list">
+            <div class="project-accomplished-card">
+                <p class="project-info">Simple Calculator Using C#</p>
+                <img class="project-preview" src="image/cal.jpg" alt="Simple Calculator Using C# project preview">
+            </div>
+
+            <div class="project-accomplished-card">
+                <p class="project-info">Inventory Management System</p>
+                <img class="project-preview" src="image/data.png" alt="Inventory Management System project preview">
+            </div>
+
+            <div class="project-accomplished-card">
+                <p class="project-info">Poster Activity 2</p>
+                <img class="project-preview" src="image/id.jpg" alt="Poster Activity 2 project preview">
+            </div>
+        </div>
+     
+        <h3>Gallery </h3>
+        <div class="gallery" id="gallery">
+            <div class="pic10">
+            <img class="gallery-img" src="FAM1.jpg" alt="Image 1">
+            <img class="gallery-img" src="YURI2.jpg" alt="Image 2">
+            <img class="gallery-img" src="RHEA3.jpg" alt="Image 3">
+            <img class="gallery-img" src="RHEA4.jpg" alt="Image 4">
+            <img class="gallery-img" src="LOVE5.jpg" alt="Image 5">
+            <img class="gallery-img" src="RHEA6.jpg" alt="Image 6">
+            <img class="gallery-img" src="RHEA7.jpg" alt="Image 7">
+            <img class="gallery-img" src="YURI8.jpg" alt="Image 8">
+            <img class="gallery-img" src="FRIENDS9.jpg" alt="Image 9">
+            <img class="gallery-img" src="LOVE10.jpg" alt="Image 10">
+            </div>
+            <div class="pic20">
+            <img class="gallery-img" src="LOVE11.jpg" alt="Image 11">
+            <img class="gallery-img" src="FRIEND12.jpg" alt="Image 12">
+            <img class="gallery-img" src="YURI13.jpg" alt="Image 13">
+            <img class="gallery-img" src="RHEA14.jpg" alt="Image 14">
+            <img class="gallery-img" src="RHEA15.jpg" alt="Image 15">
+            <img class="gallery-img" src="LOVE16.jpg" alt="Image 16">
+            <img class="gallery-img" src="RHEA17.jpg" alt="Image 17">
+            <img class="gallery-img" src="RHEA18.jpg" alt="Image 18">
+            <img class="gallery-img" src="YURI19.jpg" alt="Image 19">
+            <img class="gallery-img" src="FAM20.jpg" alt=" Image 20">
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact" class="section">
+        <h2>My Contact</h2>
+        <p>Thank you for visiting my portfolio. If you would like to discuss opportunities, collaborations, or have any inquiries, please feel free to reach out through the contact details provided on this page. I look forward to connecting with you.</p>
+
+        <div class="card">
+            <p><b>Email:</b> reiarevilloza6@gmail.com</p>
+            <p><b>Phone:</b> +63 927 381 2003</p>
+            <p><b>Facebook:</b> Rhea Padillo</p>
+            <p><b>Instagram:</b> @seren.eia</p>
+            <p><b>Tiktok:</b> posongwasakbwakakak</p>
+            <p><b>Github:</b> reiarevilloza</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 My Portfolio | Rhea Revilloza</p>
+    </footer>
+</body>
+</html>
